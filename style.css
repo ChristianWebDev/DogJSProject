@@ -1,0 +1,75 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #fff1dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.outcomes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.outcome{
+    
+    background-color: #fff1dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 500px;
+    width: 400px;
+}
+
+.outcome img{
+    object-fit: cover;
+    display: flex;
+    height: 500px;
+    width: 400px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+button{
+    background-color: #f44336;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+
+button:hover {background-color: #ff8c00;}
+
+button:active {
+  background-color: #ff0000;
+  box-shadow: 2px 4px 4px #666;
+  transform: translateY(4px);
+}
+
+.like-glyph {
+    cursor: pointer;
+  }
+  
+
+footer {
+    color: rgb(6, 7, 7);
+  }
+
+footer ul {
+    list-style-type: none;
+  }
+.activated-heart {
+    color: red;
+  }
